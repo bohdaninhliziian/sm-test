@@ -18,7 +18,6 @@ class SortedLinkedList {
             $this->validateType($value);
         }
 
-        // Sort the initial array using the same logic as the insert method
         if (!empty($this->list)) {
             sort($this->list);
         }
